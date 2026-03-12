@@ -1,5 +1,8 @@
 # SkillVerse Lite 🚀
 
+🌐 **Live Demo (JavaScript Projects):**
+https://rahulms-js-playground.netlify.app
+
 A collection of mini projects built while learning **JavaScript, React, and basic backend development**.  
 These projects focus on practicing core frontend concepts such as state management, UI design, and interactive logic.
 
