@@ -3,6 +3,12 @@
 🌐 **Live Demo (JavaScript Projects):**
 https://rahulms-js-playground.netlify.app
 
+🌐 **Live Demo (React Project : XP-Dashboard):**
+https://rahulms-pokemon-xp.netlify.app
+
+🌐 **Live Demo (React Project : Quiz-Game):**
+https://rahulms-quiz-game.netlify.app
+
 A collection of mini projects built while learning **JavaScript, React, and basic backend development**.  
 These projects focus on practicing core frontend concepts such as state management, UI design, and interactive logic.
 
