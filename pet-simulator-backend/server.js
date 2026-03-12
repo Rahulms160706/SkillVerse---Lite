@@ -13,14 +13,9 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.send("Pet Simulator API is running");
 });
-/*
+
 const petRoutes = require("./routes/petRoutes");
 app.use("/api/pets", petRoutes);
-*/
-// API test route
-app.get("/api/pets", (req, res) => {
-  res.json({ message: "Pets endpoint works!" });
-});
 
 // Connect to MongoDB
 mongoose
