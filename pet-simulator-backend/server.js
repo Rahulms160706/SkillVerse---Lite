@@ -10,6 +10,9 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
+app.get("/", (req, res) => {
+  res.send("Pet Simulator API is running");
+});
 const petRoutes = require("./routes/petRoutes");
 app.use("/api/pets", petRoutes);
 
