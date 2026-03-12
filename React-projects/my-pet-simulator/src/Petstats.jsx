@@ -111,14 +111,14 @@ function Petstats() {
 
   useEffect(() => {
   const fetchPet = async () => {
-    const res = await fetch("http://localhost:5000/api/pets");
+    const res = await fetch("https://skillverse-lite.onrender.com/api/pets");
     const data = await res.json();
 
     if (data.length > 0) {
       dispatch({ type: "LOAD_FROM_DB", payload: data[0] });
     } else {
       // create new pet if none exists
-      const newPetRes = await fetch("http://localhost:5000/api/pets", {
+      const newPetRes = await fetch("https://skillverse-lite.onrender.com/api/pets", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -138,7 +138,7 @@ function Petstats() {
   if (!state._id) return; // wait until pet loads from DB
 
   const savePet = async () => {
-    await fetch(`http://localhost:5000/api/pets/${state._id}`, {
+    await fetch(`https://skillverse-lite.onrender.com/api/pets/${state._id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json"
@@ -167,12 +167,12 @@ function Petstats() {
         <p>Final level : {state.level}</p>
         <button onClick={async () => {
           // delete existing pet
-          await fetch("http://localhost:5000/api/pets", {
+          await fetch("https://skillverse-lite.onrender.com/api/pets", {
             method: "DELETE"
           });
 
           // create fresh pet
-          const res = await fetch("http://localhost:5000/api/pets", {
+          const res = await fetch("https://skillverse-lite.onrender.com/api/pets", {
             method: "POST",
             headers: {
               "Content-Type": "application/json"
