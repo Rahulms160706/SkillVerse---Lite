@@ -1,0 +1,42 @@
+.container{
+  min-height : 100vh;
+}
+
+body, .XP-container{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+}
+.updates{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.XP-container, .updates{
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+h2{
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+}
+button{
+  margin: 8px;
+}
+img{
+  margin: 10px;
+  height: 300px;
+  width: 250px;
+}
+div{
+  margin-bottom: 20px;
+}

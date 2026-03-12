@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Story</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Fredoka:wght@300..700&family=Orbitron:wght@400..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Random story generator</h2>
+        <div class="btn-container">
+            <button class="js-btn">Generate a random story</button>
+            <select class="stories" id="savedstories">
+                <option value="">-- Saved Stories --</option>
+            </select>
+        </div>
+        <div class="story-container">
+            <p class="story"></p>
+            <br>
+            <div class="save"></div>
+        </div>
+        <div class="story-container">
+            <p class="story-view"></p>
+        </div>
+        <script type="module" src="interactive.js"></script>
+    </body>
+</html>

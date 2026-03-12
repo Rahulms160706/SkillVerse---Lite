@@ -1,0 +1,103 @@
+*{
+    color: rgb(15, 10, 57);
+}
+
+/* Background image */
+body{
+    margin : 0;
+    background-image: url("./imgs/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* header */
+.head{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/* score */
+.score{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 40px;
+}
+
+/* Cards */
+.first-row,.second-row{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    padding-top: 40px;
+}
+.r1,.r2,.r3{
+    background-color: rgb(47, 107, 162);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding:15px;
+    margin: 15px;
+    height:150px;
+    align-content: center;
+    cursor: pointer;
+}
+.r1:hover{
+    background-color: rgb(47, 127, 162);
+}
+.r2:hover{
+    background-color: rgb(47, 127, 162);
+}
+.r3:hover{
+    background-color: rgb(47, 127, 162);
+}
+
+/* button */
+.replay{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+.replay p{
+    font-size: 30px;
+    margin : 10px;
+}
+.replay button{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size:20px;
+    background-color: rgb(47, 107, 162);
+    padding:10px;
+    border:0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.replay button:hover{
+    background-color: rgb(58, 93, 174);
+}

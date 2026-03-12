@@ -1,0 +1,88 @@
+/* Home Page */
+h2{
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+p{
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+/* Questions Page */
+.container{
+  background-color: rgb(40, 40, 40);
+  width : 1500px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.quiz-page{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.question-container{
+  padding: 20px;
+  width: 65%;
+}
+.questions{
+  min-height: 180px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.question{
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+  font-size: 25px;
+}
+.options{
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.options input{
+  margin: 0;
+}
+
+.number-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px;
+  background-color: rgb(46, 46, 46);
+  border-radius: 15px;
+  width: 200px;
+}
+.number-container button{
+  background-color: rgb(30,30,30);
+  color: white;
+  margin: 5px;
+}
+
+.number-container button.answered{
+  background-color: #2ecc71;
+}
+
+.number-container button.current{
+  border: 2px solid white;
+}

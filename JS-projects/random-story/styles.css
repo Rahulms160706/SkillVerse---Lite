@@ -1,0 +1,123 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Background Image */
+html,body{
+    margin : 0;
+    padding : 0;
+    min-height: 100vh;
+}
+body{
+    position : relative;
+}
+body::before{ /* This is used to create an invisible element behind body element */
+    content : ""; /* This is required when using ::before / ::after to tell that this is present */
+    position : fixed;
+    inset : 0; 
+    /* Shorthand for top : 0, right : 0, bottom : 0, left : 0
+       without inset, the width of this pseudo element will be null, so can't see anyting without this  
+    */
+    background : url("./imgs/bg.jpg") center/cover no-repeat;
+    filter : blur(10px);
+    z-index : -1;
+}
+
+/* Header */
+h2{
+    color: beige;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+/* button */
+.btn-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction : column;
+    height: 30vh;
+}
+.js-btn{
+    border:0;
+    border-radius: 10px;
+    padding:12px;
+    margin-top: 100px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    background-color: beige;
+    color:black;
+    cursor:pointer;
+}
+.js-btn:hover{
+    background-color: rgb(235, 235, 210);
+}
+
+/* saved stories */
+select{
+    margin:50px;
+    font-size: 20px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    width: 400px;
+    max-width: 50%;
+    text-align: center;
+    color: black;
+}
+option{
+    white-space: normal;
+}
+
+/* Story */
+.story-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left : 300px;
+    margin-right : 300px;
+    text-align: center;
+    flex-direction: column;
+}
+.story{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: rgb(224, 224, 202);
+}
+.js-btn-save{
+    border:0;
+    border-radius: 10px;
+    padding: 8px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: beige;
+    color:black;
+    cursor:pointer;
+}
+.js-btn-save:hover{
+    background-color: rgb(235, 235, 210);
+}
+
+/* Story View */
+.story-view{
+
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: rgb(224, 224, 202);
+}

@@ -1,0 +1,79 @@
+/* Background Image */
+body{
+    color : white;
+    position : relative;
+}
+body::before{
+    content : "";
+    inset : 0;
+    position: fixed;
+    background: url("./imgs/bg.jpg") center/cover no-repeat;
+    filter : blur(10px);
+    z-index : -1;
+}
+
+/* Fonts */ 
+div{
+    color: white;
+}
+.game-container, h2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+h2{
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Cards */ 
+.memory,.random,.reaction{
+    border-radius:10px;
+    overflow:hidden;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    padding : 100px;
+    margin : 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.memory{
+    background-image: url("./imgs/memory.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: background-size 0.6s ease;
+}
+.memory:hover{
+    background-size : 110%;
+}
+.random{
+    background-image: url("./imgs/random.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 130%;
+    transition: background-size 0.6s ease;
+}
+.random:hover{
+    background-size : 150%;
+}
+.reaction{
+    background-image: url("./imgs/reaction.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: background-size 0.6s ease;
+}
+.reaction:hover{
+    background-size : 110%;
+}

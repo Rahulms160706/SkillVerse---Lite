@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.header{
+    background-color: rgb(106, 106, 255);
+    height: 70vh; 
+}
+.head{
+    padding : 20px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+/* button */
+.btn-container{
+    display:flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* makes sure we can display in the next line */
+}
+.btn-container p{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+.js-btn{
+    margin:10px;
+    padding:10px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: rgb(120, 198, 255);
+    border:0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.js-btn:hover{
+    background-color: rgb(110, 190, 255);
+}
+
+/* 2nd outer div element */
+.bottom{
+    background-color: beige;
+    height: 30vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    font-size:35px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
