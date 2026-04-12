@@ -1,15 +1,15 @@
-# SkillVerse Lite 🚀
+# SkillVerse Lite 
 
-🌐 **Live Demo (JavaScript Projects):**
+**Live Demo (JavaScript Projects):**
 https://rahulms-js-playground.netlify.app
 
-🌐 **Live Demo (React Project : XP-Dashboard):**
+**Live Demo (React Project : XP-Dashboard):**
 https://rahulms-pokemon-xp.netlify.app
 
-🌐 **Live Demo (React Project : Quiz-Game):**
+**Live Demo (React Project : Quiz-Game):**
 https://rahulms-quiz-game.netlify.app
 
-🌐 **Live Demo (React Project : Pet-Simulator):**
+**Live Demo (React Project : Pet-Simulator):**
 https://rahulms-pet-simulator.netlify.app
 
 A collection of mini projects built while learning **JavaScript, React, and basic backend development**.  
@@ -17,7 +17,7 @@ These projects focus on practicing core frontend concepts such as state manageme
 
 ---
 
-## 📂 Projects Included
+## Projects Included
 
 ### JavaScript Projects
 - **Reaction Time Tester**
@@ -67,7 +67,7 @@ These projects focus on practicing core frontend concepts such as state manageme
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This repository was created to practice and strengthen skills in:
 - JavaScript fundamentals
@@ -78,7 +78,7 @@ This repository was created to practice and strengthen skills in:
 
 ---
 
-## 📌 Author
+## Author
 
 Rahul  
 GitHub: https://github.com/Rahulms160706
